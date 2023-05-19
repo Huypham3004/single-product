@@ -1,0 +1,15 @@
+.slider {
+    position: relative;
+}
+
+.slider__small-image {
+    display: flex;
+    gap: 30px;
+}
+
+.slider__zoom-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+}

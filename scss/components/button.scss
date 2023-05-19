@@ -1,0 +1,49 @@
+.button {
+    padding: 19px 32px;
+    border: none;
+    border-radius: 5px;
+    color: #7B88A8;
+    text-transform: uppercase;
+    font-family: $fontPrimary;
+}
+
+.button-style-2 {
+    padding: 13px 24px;
+}
+
+.button--primary {
+    background-color: #4F77FF;
+    color: #FFF;
+}
+
+.button--secondary {
+    background-color: #886CFF;
+    color: #FFF;
+}
+
+.button--block {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.group-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.arrow-button {
+    width: 56px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2D3958;
+    border-radius: 20px;
+    border: 1px solid #E7E5EA;
+}
+
+.arrow-button--primary {
+    color: #FFFFFF;
+    background-color: #4F77FF;
+}
