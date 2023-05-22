@@ -34,32 +34,53 @@ h5,
 h6 {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
-  line-height: 1.4;
-  color: #111;
+  color: #2D3958;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 72px;
+  line-height: 1.08;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 48px;
+  line-height: 1.17;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 42px;
+  line-height: 1.19;
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 36px;
+  line-height: 1.28;
 }
 
 h5 {
   font-size: 22px;
+  line-height: 1.45;
 }
 
 h6 {
   font-size: 18px;
+  line-height: 1.56;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.pb-130 {
+  padding-bottom: 130px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
 }
 
 .button {
@@ -69,6 +90,7 @@ h6 {
   color: #7B88A8;
   text-transform: uppercase;
   font-family: "Outfit", sans-serif;
+  cursor: pointer;
 }
 
 .button-style-2 {
@@ -112,7 +134,7 @@ h6 {
   background-color: #4F77FF;
 }
 
-.row--footer {
+.footer {
   padding-bottom: 100px;
 }
 
@@ -123,9 +145,8 @@ h6 {
 }
 
 .footer-col__title {
-  font-size: 22px;
-  font-family: "Outfit", sans-serif;
   color: #FFFFFF;
+  font-weight: 400;
 }
 
 .footer-col__item {
@@ -359,13 +380,12 @@ h6 {
 
 .page-section {
   width: 100%;
-  margin-top: 100px;
+  padding-top: 100px;
   position: relative;
 }
 
 .page-section--bg {
   background-color: #F7F5F1;
-  z-index: -2;
 }
 
 .page-section--bg-2 {
@@ -384,7 +404,6 @@ h6 {
   width: 100%;
   height: 75%;
   background-color: #F7F5F1;
-  z-index: -1;
 }
 
 .slider {
@@ -403,18 +422,14 @@ h6 {
   font-size: 24px;
 }
 
-.description {
+.description-menu {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-}
-
-.description-menu {
-  display: flex;
   gap: 40px;
   position: relative;
   padding-bottom: 30px;
+  padding-top: 100px;
 }
 
 .description-menu__item {
@@ -436,10 +451,10 @@ h6 {
   border-radius: 50%;
   background-color: #34C635;
   position: absolute;
-  top: -10px;
+  top: 90px;
 }
 
-.row--description {
+.description {
   padding: 40px 0 60px 0;
   border-top: 1px solid #E7E5EA;
   border-bottom: 1px solid #E7E5EA;
@@ -456,20 +471,14 @@ h6 {
   border-radius: 5px;
 }
 
-.other-product__name {
-  font-size: 18px;
-  font-family: "Outfit", sans-serif;
-  font-weight: 500;
-  color: #2D3958;
-}
-
 .title-box {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: var(--mb);
+  padding-bottom: var(--pb);
+  margin: auto;
 }
 
 .title-box--row {
@@ -480,9 +489,6 @@ h6 {
 }
 
 .title-box__title {
-  font-size: var(--font-size);
-  font-weight: 500;
-  font-family: "Outfit", sans-serif;
   letter-spacing: -2px;
   color: #2D3958;
 }
@@ -491,12 +497,12 @@ h6 {
   font-size: 22px;
   letter-spacing: -1px;
   text-align: center;
-  margin-top: 30px;
+  padding-top: 30px;
   font-family: "Outfit", sans-serif;
 }
 
 .title-box--medium {
-  width: var(--width);
+  width: 60%;
   text-align: center;
 }
 
@@ -528,15 +534,11 @@ h6 {
 }
 
 .product-title {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .product-title__title {
-  font-family: "Outfit", sans-serif;
-  font-size: 42px;
-  font-weight: 500;
-  color: #2D3958;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .product-title__price {
@@ -547,14 +549,14 @@ h6 {
   display: flex;
   gap: 5px;
   color: #FFC200;
-  margin-bottom: 45px;
+  padding-bottom: 45px;
 }
 
 .product-description {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-bottom: 35px;
+  padding-bottom: 35px;
 }
 
 .detail-link {
@@ -563,7 +565,7 @@ h6 {
 }
 
 .color-box {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .color-box__title {
@@ -571,7 +573,7 @@ h6 {
   font-family: "Outfit", sans-serif;
   color: #2D3958;
   font-weight: 500;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .color-box__pick-color {
@@ -590,7 +592,7 @@ h6 {
 .quantity-box {
   display: flex;
   gap: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .quantity-box__number {
@@ -617,7 +619,7 @@ h6 {
 .icon-group {
   display: flex;
   font-size: 20px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .icon-wishlist {
@@ -642,22 +644,14 @@ h6 {
   border-bottom: 1px solid #E7E5EA;
 }
 
-.row--similar-product {
-  display: flex;
-  justify-content: center;
-}
-
 .container--cta {
-  padding: 100px 0;
-}
-
-.row--cta {
-  display: flex;
-  justify-content: center;
+  padding-bottom: 100px;
 }
 
 .cta-button {
-  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
 }
 
 .container {

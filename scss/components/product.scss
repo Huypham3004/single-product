@@ -1,15 +1,11 @@
-.description {
+.description-menu {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-}
-
-.description-menu {
-    display: flex;
     gap: 40px;
     position: relative;
     padding-bottom: 30px;
+    padding-top: 100px;
 }
 
 .description-menu__item {
@@ -31,11 +27,11 @@
         border-radius: 50%;
         background-color: #34C635;
         position: absolute;
-        top: -10px;
+        top: 90px;
     }
 }
 
-.row--description {
+.description {
     padding: 40px 0 60px 0;
     border-top: 1px solid #E7E5EA;
     border-bottom: 1px solid #E7E5EA;
@@ -50,11 +46,4 @@
 
 .other-product__image {
     border-radius: 5px;
-}
-
-.other-product__name {
-    font-size: 18px;
-    font-family: $fontPrimary;
-    font-weight: 500;
-    color: #2D3958;
 }
